@@ -1,4 +1,17 @@
 RailsQuiz::Application.routes.draw do
+
+	match "login" => "sessions#new"
+	
+	match "signup" => "accounts#new"
+	
+	match "logout" => "sessions#destroy"
+
+	resources :sessions, :only => :create
+	resources :accounts, :only => [:new, :create, :show]
+	resources :todos, :except => [:show]
+
+	root :to => "static#splash"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

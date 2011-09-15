@@ -14,7 +14,19 @@ TodoList
       * See: [Tom Preston Werner](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html)
       * See: [Matt Parker](http://www.slideshare.net/moonmaster9000/readme-driven-development "README Presentation")
         
-
+
+Progress:
+--------
+Basic Login, and Signup functionality accessable from root page.
+
+Once logged in, you can log out, review existing todo items, or create a new todo item.
+
+Ran out of time while testing, so testing is sparse.
+
+One cucumber spec created, and rspecs exist for todo model, and account controller.
+
+
+
 Notes:
 ------
 

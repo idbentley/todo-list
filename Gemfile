@@ -13,6 +13,16 @@ gem "capybara"
 gem "rspec-rails", ">= 2.0.1"
 # gem 'ruby-debug'
 # gem 'ruby-debug19', :require => 'ruby-debug'
+
+gem "bcrypt-ruby", :require => "bcrypt"
+
+gem "webrat"
+
+gem "cucumber-rails"
+gem "database_cleaner"
+
+
+
 end
 
 

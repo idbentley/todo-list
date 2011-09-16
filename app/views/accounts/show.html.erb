@@ -1,0 +1,10 @@
+<h1>Todos</h1>
+<% if notice %>
+	<p class="notice"><%= notice %></p>
+<% end %>
+<%= link_to "Logout", logout_url %>
+<%= link_to "New Todo", new_todo_url%>
+
+<ul class="todo_list">
+	<%= render :partial => "todos/todo", :collection => @current_account.todos %>
+</ul>
